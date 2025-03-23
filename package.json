@@ -1,0 +1,30 @@
+{
+    "name": "react-express-starter",
+    "description": "React Express Starter",
+    "authors": "Sewell Stephens",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "pathToMain",
+    "scripts": {
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "cd ./server && npm run dev",
+        "client": "cd ./client && npm run dev",
+        "packages:install": "concurrently \"npm run server:install\" \"npm run client:install\"",
+        "server:install": "cd ./server && npm i --legacy-peer-deps",
+        "client:install": "cd ./client && npm i --legacy-peer-deps",
+        "server:install:pkg": "cd ./server && npm i $1 --legacy-peer-deps",
+        "client:install:pkg": "cd ./client && npm i $1 --legacy-peer-deps",
+        "cypress:run": "npx cypress run",
+        "cypress:open": "npx cypress open",
+        "cypress:run:auth": "npx cypress run --spec 'cypress/e2e/auth-tests/login.cy.js'",
+        "cypress:run:onboarding": "npx cypress run --spec 'cypress/e2e/auth-tests/onboarding.cy.js'"
+    },
+    "devDependencies": {
+        "@testomatio/reporter": "^1.6.14",
+        "concurrently": "^9.1.2"
+    },
+    "dependencies": {
+        "@emotion/css": "^11.13.5",
+        "cypress": "^14.0.3"
+    }
+}

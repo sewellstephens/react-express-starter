@@ -1,0 +1,61 @@
+{
+    "name": "express-starter-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "module",
+    "engines": {
+        "node": "v18"
+    },
+    "scripts": {
+        "start": "pm2 start app.js && pm2 plus",
+        "dev": "nodemon app.js",
+        "test": "mocha"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.32.1",
+        "@google/generative-ai": "^0.21.0",
+        "@langchain/core": "^0.3.42",
+        "@notionhq/client": "^2.2.15",
+        "@tryfabric/martian": "^1.2.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "chai": "^5.1.1",
+        "cheerio": "^1.0.0",
+        "cookie-parser": "^1.4.5",
+        "csrf-csrf": "^3.0.6",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-rate-limit": "^7.5.0",
+        "express-validator": "^6.6.1",
+        "express-ws": "^5.0.2",
+        "fabric": "^5.4.0",
+        "googleapis": "^134.0.0",
+        "helmet": "^7.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "langchain": "^0.3.19",
+        "llamaai": "^1.0.4",
+        "mocha": "^10.7.0",
+        "mongoose": "^8.9.5",
+        "multer": "^1.4.5-lts.1",
+        "nanoid": "^5.0.7",
+        "node-cron": "^3.0.3",
+        "node-fetch": "^3.3.2",
+        "nodemailer": "^6.4.13",
+        "nodemon": "^3.0.3",
+        "openai": "^4.68.4",
+        "p-limit": "^6.2.0",
+        "pdf-img-convert": "^2.0.0",
+        "pdf-parse": "^1.1.1",
+        "pdf-to-png-converter": "^3.6.3",
+        "pdfreader": "^3.0.7",
+        "pm2": "^5.3.1",
+        "semver": "^7.5.2",
+        "showdown": "^2.1.0",
+        "simpler-express-authorize": "^1.0.2",
+        "stripe": "^15.3.0"
+    },
+    "exports": {
+        "@udecode/plate-common": "./server"
+    }
+}
