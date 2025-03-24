@@ -35,4 +35,3 @@ jobs:
         with:
           browser: chrome
           spec: cypress/e2e/auth-tests/onboarding.cy.js
-
