@@ -1,8 +1,14 @@
-﻿# Welcome to React Express Starter!!!
+⚠️ React Express Starter is no longer maintained. It is highly recommended before using in prod you update any outdated npm packages for security reasons.
+
+ # Welcome to React Express Starter!!!
 
 This is a starter project for React and Express and includes Stripe integration, authentication, and more.
 
 Uses Caddy server for Railway deployment for client, and PM2 (Keeps server alive) for Railway deployment for server.
+
+## Used by
+
+React Express Starter is the foundation I will use for all my SaaS apps going forward and is the same infra used for [Krastie AI](https://krastie.ai). Although it isn't currently maintained, it is still a very useful starter/boilerplate for any SaaS app. Note you will still need to create a landing page seperately which you can easily do in services like WordPress, Webflow, Framer, etc.
 
 ## Getting Started
 
