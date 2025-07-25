@@ -89,7 +89,9 @@ To set up Google OAuth, you will need to create a project in the Google Cloud Co
 3. You will need to create an OAuth redirect URI.
 4. You will need to create an OAuth client ID and secret.
 
-## Setting up Plunk (No longer recommended, use Brevo instead)
+## Setting up Plunk (No longer recommended)
+
+## Setting up Nodemailer for transactional emails (coming soon)
 
 ## Notes
 
